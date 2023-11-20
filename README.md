@@ -1,0 +1,2 @@
+# MindWave-fn
+npm i
