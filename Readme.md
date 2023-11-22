@@ -1,1 +1,2 @@
+# MindWave-fn
 npm i
