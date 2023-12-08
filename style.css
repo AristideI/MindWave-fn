@@ -8,29 +8,26 @@
 
 .container-l {
   max-width: 100%;
-  width: 80%;
+  width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url("./img/image\ 8_Background.png");
-  background-color: #002356;
+  background-image: linear-gradient(rgba(0, 35, 87, 0.8), rgba(0, 35, 87, 0.8)),
+    url("./img/image\ 8_Background.png");
+  background-position: center;
   background-repeat: no-repeat;
-  position: relative;
-  isolation: isolate;
-  filter: (10deg);
-  opacity: 0.75;
-  overflow: hidden;
+  background-size: cover;
+  padding: 60px;
 }
 
 .container-r {
   max-width: 100%;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: stretch;
   background-size: cover;
   background-position: center;
-  background-image: url("./img/annie-spratt-1tqgq0yvTmE-unsplash.jpg");
-  background-color: white;
-  color: lightslategray;
+  background-color: rgb(255, 255, 255);
+  color: #778899;
 }
 
 #h1 {
@@ -48,6 +45,29 @@
   overflow: hidden;
   animation: typing 3s ease-in-out infinite;
   cursor: 0.4s infinite alternate;
+}
+.container-l,
+.h2 {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+}
+.input-box {
+  width: 70%;
+  background: whitesmoke;
+  border: 1px solid lightslategray;
+  margin: 10px;
+  height: 32px;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #778899;
+}
+::placeholder {
+  color: lightslategray;
+  font-size: 12px;
 }
 
 @keyframes h2 {
